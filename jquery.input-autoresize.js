@@ -22,10 +22,12 @@
     var AUTORESIZE_EVENT_SUFFIX = '.input-autoresize';
 
     var observedEvents = [
-        'keyup'     + AUTORESIZE_EVENT_SUFFIX,
-        'keydown'   + AUTORESIZE_EVENT_SUFFIX,
-        'blur'      + AUTORESIZE_EVENT_SUFFIX,
-        'update'    + AUTORESIZE_EVENT_SUFFIX
+        'keyup'                 + AUTORESIZE_EVENT_SUFFIX,
+        'keydown'               + AUTORESIZE_EVENT_SUFFIX,
+        'blur'                  + AUTORESIZE_EVENT_SUFFIX,
+        'update'                + AUTORESIZE_EVENT_SUFFIX,
+        'change'                + AUTORESIZE_EVENT_SUFFIX,
+        'propertychange'        + AUTORESIZE_EVENT_SUFFIX
     ];
 
     var defaultOptions = {
