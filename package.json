@@ -1,0 +1,21 @@
+{
+  "name": "jquery.input-autoresize",
+  "version": "0.1.0",
+  "description": "jQuery input-autoresize Plugin",
+  "main": "jquery.input-autoresize.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rakhmanoff/jquery.input-autoresize.git"
+  },
+  "keywords": [
+    "jquery",
+    "plugin",
+    "input",
+    "autoresize"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rakhmanoff/jquery.input-autoresize/issues"
+  },
+  "homepage": "https://github.com/rakhmanoff/jquery.input-autoresize"
+}

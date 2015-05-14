@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Boilerplate</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="../jquery.input-autoresize.js"></script>
+  </head>
+  <body>
+    <input type="text" id="adaptor" />
+    <script>
+      $(function() {
+        $("#adaptor").inputAutoresize({
+          comfortZone: 10,
+          minWidth: 10,
+          maxWidth: 500
+        });
+
+        setInterval(function () {
+          $("#adaptor").inputAutoresize('destroy');
+          $("#adaptor").inputAutoresize();
+          $("#adaptor").val('345');
+          $("#adaptor").inputAutoresize('update');
+        }, 100);
+
+        // setTimeout(function () {
+        //   $("#adaptor").inputAutoresize('destroy');
+        // }, 4000);
+      });
+    </script>
+  </body>
+</html>
