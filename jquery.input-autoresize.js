@@ -4,9 +4,19 @@
  * This is an extended version of this plugin from http://stackoverflow.com/a/931695/2474379
  */
 
-(function($){
-
-    'use strict';
+(function (factory) {
+  if (typeof define === 'function' && define.amd) {
+    // AMD support
+    define(['jquery.input-autoresize'], factory);
+  } else if (typeof exports !== 'undefined') {
+    // CommonJS support
+    var jQuery = require('jquery');
+    module.exports = factory(jQuery);
+  } else {
+    // Non-modular execution
+    factory(window.jQuery);
+  }
+}) (function($){
 
     var AUTORESIZE_DATA_KEY = 'jquery.input-autoresize';
     var AUTORESIZE_EVENT_SUFFIX = '.input-autoresize';
@@ -133,4 +143,4 @@
 
     };
 
-})(jQuery);
+});
