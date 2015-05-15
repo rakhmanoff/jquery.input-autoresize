@@ -1,7 +1,7 @@
 {
   "name": "jquery.input-autoresize",
   "main": "jquery.input-autoresize.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/rakhmanoff/jquery.input-autoresize",
   "description": "jQuery input-autoresize Plugin",
   "keywords": [
