@@ -57,7 +57,7 @@
                 textIndent: this.$el.css('textIndent'),
                 whiteSpace: 'nowrap'
             });
-            this.$testSubject.insertAfter(this.$el);
+            $('body').append(this.$testSubject);
 
             this.$el.on(observedEvents.join(' '), this.update.bind(this));
 
