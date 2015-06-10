@@ -1,6 +1,6 @@
 {
   "name": "jquery.input-autoresize",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "jQuery input-autoresize Plugin",
   "main": "jquery.input-autoresize.js",
   "repository": {
